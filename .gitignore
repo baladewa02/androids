@@ -1,0 +1,11 @@
+#Ignore files need to be added to this file
+/project.properties
+bin
+target
+.settings
+.classpath
+.project
+.springBeans
+.externalToolBuilders
+maven-eclipse.xml
+.metadata/
