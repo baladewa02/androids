@@ -1,6 +1,7 @@
 #Ignore files need to be added to this file
 /project.properties
 bin
+gen/
 target
 .settings
 #.classpath
@@ -8,4 +9,11 @@ target
 .springBeans
 .externalToolBuilders
 #maven-eclipse.xml
+R.java
 .metadata/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
