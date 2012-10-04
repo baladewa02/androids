@@ -3,9 +3,9 @@
 bin
 target
 .settings
-.classpath
-.project
+#.classpath
+#.project
 .springBeans
 .externalToolBuilders
-maven-eclipse.xml
+#maven-eclipse.xml
 .metadata/
