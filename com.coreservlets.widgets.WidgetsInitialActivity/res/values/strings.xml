@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Initial screen -->
+    <string name="app_name">Examples of Simple Input Widgets</string>
+    <string name="show_buttons_button_label">Show Button-Like Widgets</string>
+    <string name="show_spinners_button_label">Show Spinners (Combo Boxes)</string>
+    
+    <!-- Buttons example -->
+    <string name="button_app_name">Buttons and Other Clickable Widgets</string>
+    <string name="hi_label">Hi!</string>
+    <string name="bye_label">Bye!</string>
+    <string name="yo_label">Yo!</string>
+    <string name="button_message_template">
+       You clicked the \'%s\' Widget.
+    </string>
+    <string name="image_button_message_template">
+       You clicked the ImageButton that displays %s.
+    </string>
+    <string name="image_button_1_image">
+        the android_platform.png image
+    </string>
+    <string name="image_button_2_image">
+         the camera_phone.png image
+    </string>
+    <string name="image_button_3_image">
+        the gps.png image
+    </string>
+    <string name="image_button_4_image">
+        the Drawable defined in button_android.xml
+    </string>
+    <string name="image_button_5_image">
+        the Drawable defined in button_dialog.xml
+    </string>
+    <string name="image_button_6_image">
+        the Drawable defined in button_rating_star.xml
+    </string>
+    <string name="new_selection_message_template">
+        You selected the \'%s\' RadioButton. There was no previous selection.
+    </string>
+    <string name="changed_selection_message_template" formatted="false">
+        You selected the \'%s\' RadioButton. Previous selection was \'%s\'.
+    </string>
+    <string name="ssl_toggle_on">Use SSL</string>
+    <string name="ssl_toggle_off">No SSL</string>
+    <string name="gps_toggle_on">GPS On</string>
+    <string name="gps_toggle_off">GPS Off</string>
+    <string name="toggle_button_message_template" formatted="false">
+        You turned the ToggleButton %s. Label is now \'%s\'.
+    </string>
+    
+    <!-- Spinners example -->
+    <string name="spinner_app_name">Spinners (Combo Boxes)</string>
+    <string name="spinner1_prompt">Current Android Vendors (Choices from XML)</string>
+    <string-array name="spinner1_entries">
+        <item>Acer</item>
+        <item>Dell</item>
+        <item>HTC</item> 
+        <item>Huawei</item>
+        <item>Kyocera</item>
+        <item>LG</item>
+        <item>Motorola</item>
+        <item>Nexus</item>
+        <item>Samsung</item>
+        <item>Sony Ericsson</item>
+        <item>T-Mobile</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="spinner_message_template">You selected \'%s\'.</string>
+    <string name="spinner2_prompt">Future Android Vendors (Choices from Java)</string>
+    
+</resources>

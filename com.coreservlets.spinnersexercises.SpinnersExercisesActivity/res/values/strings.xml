@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpinnersExercises</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spinners_exercises">Spinners: Exercises</string>
+    <string name="spinner1_prompt">Choose Color (Choices from XML)</string>
+    <string-array name="spinner1_entries">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Blue</item> 
+        <item>Green</item>
+    </string-array>
+    <string name="spinner2_prompt">Choose Color (Choices from Java)</string>
+</resources>
