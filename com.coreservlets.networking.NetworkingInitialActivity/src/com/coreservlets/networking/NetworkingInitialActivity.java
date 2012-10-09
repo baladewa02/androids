@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 /** Demonstrates a variety of relatively simple network client and
- *  String parsing tasks.
+ *  String parsing tasks. my test
  *  <p>
  *  From <a href="http://www.coreservlets.com/android-tutorial/">
  *  the coreservlets.com Android programming tutorial series</a>.
