@@ -26,23 +26,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="@string/celsius" />
+            android:text="@string/celsius" 
+            android:onClick="calculate"/>
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fahrenheit" />
+            android:text="@string/fahrenheit" 
+            android:onClick="calculate" />
     </RadioGroup>
 
-    <Button
-        android:id="@+id/button1"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/radioGroup1"
-        android:layout_marginTop="15dp"
-        android:text="@string/calc"
-        android:onClick="calculate" />
+        android:layout_marginLeft="16dp"
+        android:text="@string/calc" />
 
 </RelativeLayout>
