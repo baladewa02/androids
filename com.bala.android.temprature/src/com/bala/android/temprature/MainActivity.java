@@ -43,8 +43,6 @@ public class MainActivity extends Activity {
 			if (inCelsius.isChecked()) {
 				mViewText.setText(String
 						.valueOf(convertFahrenheitToCelsius(inputValue)));
-				//inCelsius.setChecked(false);
-				//inFahrenheit.setChecked(true);
 			}
 			break;
 		case R.id.radio1:
